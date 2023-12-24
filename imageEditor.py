@@ -3,8 +3,8 @@
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
-path = open('C:Users\edgar\PycharmProjects\imageEditor\Scripts\imgs')
-pathOut = open(r'C:Users\edgar\PycharmProjects\imageEditor\Scripts\imgs')
+#path = ('Directory_Location')  Set custom directory paths
+#pathOut = ('Directory_Location')  Set custom directory paths
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
